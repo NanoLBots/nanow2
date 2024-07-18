@@ -11,3 +11,5 @@ services:
     ports:
       - "70:70"
       - "7070:7070"
+    limits:
+      storage: 450G
